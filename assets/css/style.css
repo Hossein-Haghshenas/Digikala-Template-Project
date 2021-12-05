@@ -1,0 +1,17 @@
+/* Font links */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@200;300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  color: #000000;
+  font-family: "Lato", monospace;
+  font-size: 1rem;
+}
