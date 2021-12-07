@@ -8,10 +8,78 @@
   border: none;
   outline: none;
   list-style: none;
+}
+a {
+  color: #000000;
   text-decoration: none;
+}
+a:hover {
+  color: #000000;
 }
 body {
   color: #000000;
   font-family: "Lato", monospace;
   font-size: 1rem;
+}
+header {
+  background: rgb(192, 192, 192);
+  padding: 1rem;
+}
+.header-logo-section {
+  width: 6rem;
+  height: 1rem;
+  margin: 0 2rem 0 -1rem;
+}
+.header-search-section {
+  position: relative;
+}
+.header-search {
+  width: 20rem;
+  padding: 0.5rem 2.4rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 2px #ffffff;
+}
+.search-icon {
+  position: absolute;
+  top: 0.4rem;
+  left: 0.6rem;
+  color: #757575;
+}
+.header-btns-section i {
+  font-size: 22px;
+  cursor: pointer;
+}
+.header-login-btn > button {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem 1rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #636363 !important;
+  background: rgba(255, 255, 255, 0.699);
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 0 2px #ffffff;
+}
+.header-login-btn > button:hover {
+  color: red !important;
+}
+.header-btns-line {
+  height: 2rem;
+  width: 0.5px;
+  background-color: #7a7a7a;
+  margin: 0 1rem;
+}
+.header-shopcart-btn:hover {
+  transition: all 0.5s ease-in-out;
+}
+.header-shopcart-btn:hover {
+  color: rgba(206, 0, 0, 0.767);
+  transform: translateY(-5px);
+}
+.header-menu-btn button {
+  background-color: transparent !important;
+}
+.header-menu-btn button i {
+  font-size: 25px !important;
 }
