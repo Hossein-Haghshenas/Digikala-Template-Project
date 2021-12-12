@@ -143,3 +143,28 @@ header {
   padding-right: 20px;
 }
 /* navbar end */
+
+/* carousel start */
+.main-carousel {
+  height: 100%;
+}
+
+.slider a img {
+  width: 96%;
+  height: 30rem;
+  margin: 0.5rem 1rem 0;
+  border-radius: 1rem;
+}
+.Ad-image a img {
+  width: 92%;
+  height: 14rem;
+  margin: 0.5rem 0.5rem 1rem;
+  border-radius: 1rem;
+}
+@media (max-width: 800px) {
+  .slider a img {
+    width: 92%;
+    height: 20rem;
+  }
+}
+/* carousel end */
