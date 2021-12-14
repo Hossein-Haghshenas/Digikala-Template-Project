@@ -149,11 +149,54 @@ header {
   height: 100%;
 }
 
-.slider a img {
-  width: 96%;
+.slider-images {
+  display: inline-block;
+  background-image: url(../image/Cheap\ Christmas\ gifts.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 95%;
   height: 30rem;
   margin: 0.5rem 1rem 0;
   border-radius: 1rem;
+}
+.slider-btns {
+  position: absolute;
+  right: 2.5rem;
+  left: 2.5rem;
+  bottom: 50%;
+}
+.slider-next {
+  position: absolute;
+  right: 0;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  z-index: 100;
+}
+.slider-prev {
+  position: absolute;
+  left: 0.5rem;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  z-index: 100;
+}
+.slider-controll {
+  position: absolute;
+  bottom: 3%;
+  left: 45%;
+  color: rgba(255, 255, 255, 0.897);
+  font-size: 0.84rem;
+  text-align: center;
+  margin-top: -1.5rem;
+}
+.slider-btns span,
+.slider-controll span {
+  cursor: pointer;
+  transition: all 0.5s ease;
+  text-shadow: 0 0 1px #7a7a7a;
+}
+.slider-btns span:hover,
+.slider-controll span:hover {
+  color: #afafaf;
 }
 .Ad-image a img {
   width: 92%;
@@ -162,9 +205,15 @@ header {
   border-radius: 1rem;
 }
 @media (max-width: 800px) {
-  .slider a img {
-    width: 92%;
-    height: 20rem;
+  .slider-images {
+    width: 85%;
+    height: 17rem;
+  }
+  .slider-btns {
+    position: absolute;
+    right: 4rem;
+    left: 4rem;
+    bottom: 50%;
   }
 }
 /* carousel end */
