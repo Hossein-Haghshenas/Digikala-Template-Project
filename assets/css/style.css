@@ -151,13 +151,23 @@ header {
 
 .slider-images {
   display: inline-block;
-  background-image: url(../image/Cheap\ Christmas\ gifts.jpg);
+  background-image: url(../image/slide-1.jpg);
   background-size: cover;
   background-position: center;
   width: 95%;
   height: 30rem;
   margin: 0.5rem 1rem 0;
   border-radius: 1rem;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .slider-btns {
   position: absolute;
@@ -196,6 +206,9 @@ header {
 }
 .slider-btns span:hover,
 .slider-controll span:hover {
+  color: #afafaf;
+}
+.active {
   color: #afafaf;
 }
 .Ad-image a img {
