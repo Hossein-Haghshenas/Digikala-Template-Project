@@ -151,7 +151,7 @@ header {
 
 .slider-images {
   display: inline-block;
-  background-image: url(../image/slide-1.jpg);
+  background-image: url(../image/slider/slide-1.jpg);
   background-size: cover;
   background-position: center;
   width: 95%;
