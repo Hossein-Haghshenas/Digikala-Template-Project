@@ -256,6 +256,7 @@ header {
 }
 .offer-cards {
   overflow-x: auto;
+  overflow-y: hidden;
 }
 .offer-cards::-webkit-scrollbar {
   display: none;
@@ -310,15 +311,16 @@ progress::-moz-progress-bar {
     padding: 2rem 0.5rem;
   }
   .offer-info-img img {
-    width: 9rem;
+    width: 7rem;
     height: 12rem;
     margin-right: 1rem;
   }
   .card {
-    padding: 0.7rem;
+    padding: 0.6rem;
   }
-  .card-img {
-    width: 9rem;
+  .card-info {
+    font-size: 13px;
+    color: #333333;
   }
 }
 /* Amazing-offer end */
