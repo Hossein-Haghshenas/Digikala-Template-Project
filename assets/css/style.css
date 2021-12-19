@@ -151,7 +151,7 @@ header {
 
 .slider-images {
   display: inline-block;
-  background-image: url(../image/slide-1.jpg);
+  background-image: url(../image/slider/slide-1.jpg);
   background-size: cover;
   background-position: center;
   width: 95%;
@@ -324,3 +324,15 @@ progress::-moz-progress-bar {
   }
 }
 /* Amazing-offer end */
+
+/* Ad-section start */
+
+.Ad-section {
+  margin: 1rem 0;
+}
+.Ad-card img {
+  width: 97%;
+  height: 13rem;
+  border-radius: 1rem;
+}
+/* Ad-section end */
