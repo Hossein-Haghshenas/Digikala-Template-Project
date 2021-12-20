@@ -60,8 +60,12 @@ header {
   top: 0.4rem;
   left: 0.6rem;
   color: #757575;
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
-
+.search-icon:hover {
+  color: #ef394e;
+}
 /* header-btns */
 
 .header-btns-section i {
@@ -233,8 +237,11 @@ header {
 
 /* Amazing-offer start */
 
-.Amazing-offer {
-  background: #ee3547;
+#Amazing-offer-section {
+  background: #ef394e;
+}
+
+.Amazing {
   padding: 2rem;
   margin: 1rem 0;
 }
@@ -278,6 +285,10 @@ header {
   text-align: center;
   margin-top: 1rem;
 }
+.card-img-responsive {
+  width: 10rem;
+  height: 10rem;
+}
 .card-price s {
   color: #757575;
 }
@@ -307,12 +318,12 @@ progress::-moz-progress-bar {
 }
 
 @media (max-width: 500px) {
-  .Amazing-offer {
+  .Amazing {
     padding: 2rem 0.5rem;
   }
   .offer-info-img img {
-    width: 7rem;
-    height: 12rem;
+    width: 8rem;
+    height: 13rem;
     margin-right: 1rem;
   }
   .card {
@@ -336,3 +347,13 @@ progress::-moz-progress-bar {
   border-radius: 1rem;
 }
 /* Ad-section end */
+
+/* Amazing-SuperMarket-cards start*/
+#Amazing-SuperMarket-section {
+  background: #6bb927;
+}
+#SuperMarket-btn:hover {
+  color: #6bb927;
+  direction: rtl;
+}
+/* Amazing-SuperMarket-cards end*/
