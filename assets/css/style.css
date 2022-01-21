@@ -359,6 +359,9 @@ progress::-moz-progress-bar {
 #supermarket-cards {
   direction: rtl;
 }
+#supermarket-cards .card {
+  direction: ltr;
+}
 /* Amazing-SuperMarket-cards end*/
 
 /* Visit & recomended section start */
@@ -416,7 +419,6 @@ progress::-moz-progress-bar {
   height: 26rem;
   overflow-x: auto;
   overflow-y: hidden;
-  direction: ltr;
 }
 .Visit-products::-webkit-scrollbar {
   display: none;
