@@ -362,10 +362,20 @@ progress::-moz-progress-bar {
 /* Amazing-SuperMarket-cards end*/
 
 /* Visit & recomended section start */
+.Visit-title {
+  width: 30%;
+}
+.Visit-header-line {
+  width: 70%;
+  height: 1px;
+  margin-left: 1rem;
+  background: #b3b3b3;
+  margin-top: 4.4rem;
+}
 .products-box {
   margin: 1rem;
   padding: 1rem;
-  height: 26rem;
+  height: 28rem;
   width: calc(90%-4rem);
   border-radius: 1rem;
   box-shadow: 0 0 6px 1px #bebebe;
@@ -376,9 +386,18 @@ progress::-moz-progress-bar {
 }
 .title-text {
   letter-spacing: 1px;
+  color: #555555;
+  text-align: center;
+  font-weight: 600;
 }
-.title-text {
+.Visit-title .title-text {
+  text-align: start;
+}
+.title-description {
   letter-spacing: 1px;
+  color: #515151;
+  font-size: 14px;
+  margin: 0.6rem 0 0rem;
 }
 .title-line {
   width: 100%;
@@ -393,10 +412,19 @@ progress::-moz-progress-bar {
 .recomended-product {
   cursor: pointer;
 }
-/* .Visit-products {
+.Visit-products {
+  height: 26rem;
   overflow-x: auto;
-  overflow-y: visible !important;
-} */
+  overflow-y: hidden;
+  direction: ltr;
+}
+.Visit-products::-webkit-scrollbar {
+  display: none;
+}
+.Visit-products .card {
+  margin-top: 1rem;
+  height: 18rem;
+}
 .products-box .card-img-responsive {
   width: 6rem;
   height: 7rem;
