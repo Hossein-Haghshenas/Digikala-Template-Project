@@ -25,6 +25,7 @@ li {
 }
 body {
   color: #000000;
+  background: #f5f5f5;
   font-family: "Lato", monospace;
   font-size: 1rem;
 }
@@ -433,3 +434,30 @@ progress::-moz-progress-bar {
   margin: 0.5rem 25%;
 }
 /* Visit & recomended section end */
+
+/* categorie icon section start */
+
+#categorie-icon {
+  height: max-content;
+}
+.categorie-icon-title {
+  color: #333333ad;
+}
+.categorie-icon-items li {
+  text-align: center;
+  width: 8rem;
+}
+.categorie-icon-items a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #00bfd6;
+  font-size: 1.5rem;
+}
+.categorie-icon-items a h6 {
+  color: #313131 !important;
+}
+.categorie-icon-items a p {
+  font-size: 1rem;
+}
+/* categorie icon section end */
